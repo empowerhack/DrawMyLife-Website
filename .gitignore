@@ -3,3 +3,7 @@ _site
 .jekyll-metadata
 
 .DS_Store
+
+src/assets/bundle.js
+public
+node_modules
