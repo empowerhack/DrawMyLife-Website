@@ -2,29 +2,7 @@
   "name": "DrawMyLife-Website",
   "version": "1.0.0",
   "description": "Website for DML project",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/empowerhack/DrawMyLife-Website.git"
-  },
-  "keywords": [
-    "refugee",
-    "drawing",
-    "field",
-    "workers",
-    "volunteer",
-    "open",
-    "source"
-  ],
-  "author": "Draw My Life",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/empowerhack/DrawMyLife-Website/issues"
-  },
-  "homepage": "https://github.com/empowerhack/DrawMyLife-Website",
+  "main": "webpack/entry.js",
   "devDependencies": {
     "babel-core": "^6.21.0",
     "babel-loader": "^6.2.10",
@@ -34,5 +12,24 @@
     "react-addons-update": "^15.4.1",
     "react-dom": "^15.4.1",
     "webpack": "^1.14.0"
+  },
+  "repository": "https://github.com/empowerhack/DrawMyLife-Website.git",
+  "author": "Draw My Life",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/empowerhack/DrawMyLife-Website/issues"
+  },
+  "homepage": "https://github.com/empowerhack/DrawMyLife-Website",
+  "keywords": [
+    "refugee",
+    "drawing",
+    "field",
+    "workers",
+    "volunteer",
+    "open",
+    "source"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
   }
 }
