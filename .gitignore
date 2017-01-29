@@ -4,6 +4,6 @@ _site
 
 .DS_Store
 
-src/assets/bundle.js
+src/assets/javascript/bundle.js
 public
 node_modules
