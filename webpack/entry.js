@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
 import { render } from 'react-dom';
-import Hello from './components/Hello';
+import Root from './components/Root.jsx';
 
 class App extends Component {
  render() {
    return (
-     <Hello />
+     <Root />
    );
  };
 };
