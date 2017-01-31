@@ -7,3 +7,5 @@ _site
 src/assets/javascript/bundle.js
 public
 node_modules
+npm-debug.log
+yarn-error.log
