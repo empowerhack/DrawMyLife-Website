@@ -1,8 +1,9 @@
 export const nav = {
-  'home':       'Home',
-  'about':      'About Draw My Life',
-  'dataset':    'Data Set',
-  'team':       'Meet the Team',
-  'partners':   'Meet Our Partners',
-  'contact':    'Get in Touch'
+  home:         'Home',
+  about:        'About Draw My Life',
+  dataset:      'Data Set',
+  team:         'Meet the Team',
+  partners:     'Meet Our Partners',
+  contact:      'Get in Touch',
+  volunteer:    'Volunteer with Us'
 };
