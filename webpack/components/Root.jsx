@@ -18,6 +18,7 @@ module.exports = React.createClass({
       <Router history={ hashHistory }>
         <Route path="/" component={ Layout }>
           <IndexRoute component={ Home } />
+          <Route path="home" component={ Home }/>
           <Route path="about" component={ About }/>
           <Route path="contact" component={ Contact }/>
           <Route path="partners" component={ Partners }/>

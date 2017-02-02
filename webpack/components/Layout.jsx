@@ -1,7 +1,7 @@
 import React from 'react';
 
 import Nav from './Nav.jsx';
-// import Footer from './Footer.jsx';
+import Footer from './Footer.jsx';
 
 export default class Layout extends React.Component {
   static get propTypes() {
@@ -14,11 +14,14 @@ export default class Layout extends React.Component {
     return (
       <div className="page-wrap">
         <Nav />
+
         <div className="container-fluid">
           <div className="wrapper">
             { this.props.children }
           </div>
         </div>
+        
+        <Footer />
       </div>
     );
   }
