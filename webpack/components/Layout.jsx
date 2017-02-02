@@ -1,6 +1,6 @@
 import React from 'react';
 
-// import Nav from './Nav.jsx';
+import Nav from './Nav.jsx';
 // import Footer from './Footer.jsx';
 
 export default class Layout extends React.Component {
@@ -13,6 +13,7 @@ export default class Layout extends React.Component {
   render() {
     return (
       <div className="page-wrap">
+        <Nav />
         <div className="container-fluid">
           <div className="wrapper">
             { this.props.children }

@@ -8,6 +8,7 @@ import Home from './pages/Home.jsx';
 import Partners from './pages/Partners.jsx';
 import Team from './pages/Team.jsx';
 import Volunteer from './pages/Volunteer.jsx';
+import Dataset from './pages/Dataset.jsx';
 
 module.exports = React.createClass({
   displayName: 'Root',
@@ -22,6 +23,7 @@ module.exports = React.createClass({
           <Route path="partners" component={ Partners }/>
           <Route path="team" component={ Team }/>
           <Route path="volunteer" component={ Volunteer }/>
+          <Route path="dataset" component={ Dataset }/>
         </Route>
       </Router>
     );

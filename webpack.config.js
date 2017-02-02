@@ -1,3 +1,5 @@
+var webpack = require('webpack');
+
 module.exports = {
   entry: './webpack/entry.js',
   output: {
@@ -15,5 +17,12 @@ module.exports = {
       }
     }
     ]
-  }
+  },
+  plugins: [
+    new webpack.optimize.UglifyJsPlugin({
+      compress: {
+        warnings: false
+      }
+    })
+  ]
 };
