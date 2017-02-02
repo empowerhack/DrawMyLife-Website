@@ -19,7 +19,7 @@ export default class Nav extends React.Component {
           &#9776;
         </button>
         <div className="collapse navbar-toggleable-xs" id="exCollapsingNavbar2">
-          <ul className="nav navbar-nav pull-right">
+        <ul className="nav navbar-nav pull-right">
             { _displayNavItem }
           </ul>
         </div>
