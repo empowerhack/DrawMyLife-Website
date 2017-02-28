@@ -2,7 +2,7 @@
 A static website showcasing the Draw My Life initiative, partnerships and team
 
 ## Development Setup
-This website lives and is rendered on the client side. To get up and running with the development of this project there are a few prerequisite, i.e. you need to have node and Ruby installed on your local machine.
+This website lives and is rendered on the client side. To get up and running with the development of this project there are a few prerequisites, i.e. you need to have node and Ruby installed on your local machine.
 
 ### Why do I need Node and Ruby installed?
 Ruby is required for Jekyll and Node will help you massively with all the javascript (see Tech Stack for more details).
