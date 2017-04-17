@@ -13,14 +13,10 @@ export default class Layout extends React.Component {
   render() {
     return (
       <div className="page-wrap">
-        <Nav />
-
         <div className="container-fluid">
-          <div className="wrapper">
+          <Nav />
             { this.props.children }
-          </div>
         </div>
-        
         <Footer />
       </div>
     );

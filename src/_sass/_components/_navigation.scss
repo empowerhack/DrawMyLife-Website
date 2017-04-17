@@ -1,0 +1,12 @@
+@import '_helpers/variables';
+
+nav {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+
+  &.navbar-default {
+    background-color: $white;
+    border-color: $white;
+  }
+}
