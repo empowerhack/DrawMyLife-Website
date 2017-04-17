@@ -3,7 +3,7 @@ var webpack = require('webpack');
 module.exports = {
   entry: './webpack/entry.js',
   output: {
-    path: 'src/_assets/javascript/',
+    path: 'src/assets/javascript/',
     filename: 'bundle.js'
   },
   module: {
