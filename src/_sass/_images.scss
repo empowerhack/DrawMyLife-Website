@@ -1,0 +1,14 @@
+img {
+  &.full-screen {
+    min-height: 100%;
+    min-width: 100%;
+    height: auto;
+    width: auto;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+  }
+}
