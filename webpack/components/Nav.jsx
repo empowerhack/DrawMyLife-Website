@@ -8,7 +8,7 @@ export default class Nav extends React.Component {
   render() {
     const _displayNavItem = Object.keys(nav).map((key, index) => {
       return (
-        <LinkContainer to={ '/' + key } key={ index }><NavItem eventKey={ index }>{ nav[key] }</NavItem></LinkContainer>
+        <LinkContainer to={ '/wip/' + key } key={ index }><NavItem eventKey={ index }>{ nav[key] }</NavItem></LinkContainer>
       );
     });
 

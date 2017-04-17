@@ -1,6 +1,9 @@
 import React from 'react';
 import { Router, Route, IndexRoute, hashHistory } from 'react-router';
 
+import ComingSoonLayout from './ComingSoonLayout.jsx';
+import ComingSoon from './pages/ComingSoon.jsx';
+
 import Layout from './Layout.jsx';
 import About from './pages/About.jsx';
 import Contact from './pages/Contact.jsx';
@@ -16,8 +19,11 @@ module.exports = React.createClass({
   render() {
     return (
       <Router history={ hashHistory }>
-        <Route path="/" component={ Layout }>
-          <IndexRoute component={ Home } />
+        <Route path="/" component={ ComingSoonLayout }>
+          <IndexRoute component={ ComingSoon } />
+        </Route>
+
+        <Route path="/wip" component={ Layout }>
           <Route path="home" component={ Home }/>
           <Route path="about" component={ About }/>
           <Route path="contact" component={ Contact }/>
