@@ -2,6 +2,7 @@ import React from 'react';
 import { PageHeader } from 'react-bootstrap-4';
 
 import { comingSoon } from '../../copy/coming_soon.js';
+import DMLButton from '../shared/DMLButton.jsx';
 
 export default class ComingSoon extends React.Component {
   render() {
@@ -15,8 +16,7 @@ export default class ComingSoon extends React.Component {
 
         <p>{ comingSoon.tagline }</p>
 
-        {/* Move this to a button component */}
-        <a className="btn btn-primary dml-button" href={ comingSoon.callToActionURL } role="button">{ comingSoon.callToActionText }</a>
+        <DMLButton buttonText={ comingSoon.callToActionText } buttonURL={ comingSoon.callToActionURL } />
 
         <div dangerouslySetInnerHTML={ comingSoon.description } />
       </div>
