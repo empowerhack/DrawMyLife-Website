@@ -13,7 +13,7 @@ export default class Nav extends React.Component {
     });
 
     return (
-      <nav className="navbar navbar-fixed-top">
+      <nav className="navbar navbar-default">
         <a className="navbar-brand" href="/#/home"> Draw My Life</a>
         <button className="navbar-toggler hidden-sm-up" type="button" data-toggle="collapse" data-target="#exCollapsingNavbar2" aria-controls="exCollapsingNavbar2" aria-expanded="false" aria-label="Toggle navigation">
           &#9776;
