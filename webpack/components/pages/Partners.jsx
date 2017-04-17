@@ -1,5 +1,5 @@
 import React from 'react';
-import { PageHeader } from 'react-bootstrap';
+import { PageHeader } from 'react-bootstrap-4';
 
 import { partners } from '../../copy/partners.js';
 
