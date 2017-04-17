@@ -15,10 +15,10 @@ export default class Nav extends React.Component {
     return (
       <nav className="navbar navbar-fixed-top">
         <a className="navbar-brand" href="/#/home"> Draw My Life</a>
-        <button className="navbar-toggler hidden-sm-up" type="button" data-toggle="collapse" data-target="#exCollapsingNavbar2" aria-controls="exCollapsingNavbar2" aria-expanded="false" aria-label="Toggle navigation">
+        <button className="navbar-toggle collapsed" type="button" data-toggle="collapse" data-target="#exCollapsingNavbar2" aria-controls="exCollapsingNavbar2" aria-expanded="false" aria-label="Toggle navigation">
           &#9776;
         </button>
-        <div className="collapse navbar-toggleable-xs" id="exCollapsingNavbar2">
+        <div className="collapse navbar-collapse" id="exCollapsingNavbar2">
         <ul className="nav navbar-nav pull-right">
             { _displayNavItem }
           </ul>
