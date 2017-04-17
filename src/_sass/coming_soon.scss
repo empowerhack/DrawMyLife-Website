@@ -1,0 +1,27 @@
+.coming-soon {
+  .container-fluid {
+    padding-top: 220px;
+    background-image: url(../assets/images/coming_soon.png);
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #fff;
+    text-align: center;
+    min-height: 800px;
+  }
+
+  h1 {
+    font-size: 6em;
+  }
+
+  .dml-logo {
+    width: 250px;
+    height: 150px;
+    background-image: url(../assets/images/DML-Logo-web-150x-high.png);
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-indent: -9999px;
+    margin: 0 auto;
+  }
+}

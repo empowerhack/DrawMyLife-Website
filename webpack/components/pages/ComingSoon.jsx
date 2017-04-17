@@ -7,9 +7,18 @@ export default class ComingSoon extends React.Component {
   render() {
     return (
       <div className="container">
-        <PageHeader>{ comingSoon.title }</PageHeader>
+        <PageHeader className="title">{ comingSoon.title }</PageHeader>
 
-        <p>{ comingSoon.lorem }</p>
+        <div className="dml-logo">
+          Draw My Life logo
+        </div>
+
+        <p>{ comingSoon.tagline }</p>
+
+        {/* Move this to a button component */}
+        <a className="btn btn-primary dml-button" href={ comingSoon.callToActionURL } role="button">{ comingSoon.callToActionText }</a>
+
+        <div dangerouslySetInnerHTML={ comingSoon.description } />
       </div>
     );
   }
