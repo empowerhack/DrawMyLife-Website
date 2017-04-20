@@ -1,6 +1,6 @@
 import React from 'react';
 import { LinkContainer } from 'react-router-bootstrap';
-import { NavItem } from 'react-bootstrap';
+import { NavItem } from 'react-bootstrap-4';
 
 import { nav }  from '../copy/navigation';
 
