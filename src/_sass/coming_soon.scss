@@ -1,27 +1,45 @@
-.coming-soon {
-  .container-fluid {
-    padding-top: 220px;
-    background-image: url(../assets/images/coming_soon.png);
-    background-position: top center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-color: #fff;
-    text-align: center;
-    min-height: 800px;
-  }
+.coming-soon-wrapper {
+  align-items: center;
+  background-image: url('../assets/images/coming_soon.png');
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  font-family: $font-family;
+  height: 100%;
+  justify-content: center;
+  text-align: center;
+}
+
+.coming-soon-content {
+  height: 100vh;
+  max-width: 65%;
 
   h1 {
     font-size: 6em;
   }
 
+  p {
+    font-size: 1.25em;
+    font-weight: 400;
+  }
+
+  a {
+    color: #3498db;
+
+    &:hover {
+      text-decoration: none;
+    }
+  }
+
   .dml-logo {
-    width: 250px;
-    height: 150px;
-    background-image: url(../assets/images/DML-Logo-web-150x-high.png);
+    background-image: url('../assets/images/DML-Logo-web-150x-high.png');
     background-position: top center;
     background-repeat: no-repeat;
     background-size: cover;
-    text-indent: -9999px;
+    height: 150px;
     margin: 0 auto;
+    text-indent: -9999px;
+    width: 250px;
   }
 }

@@ -9,13 +9,8 @@ export default class ComingSoonLayout extends React.Component {
 
   render() {
     return (
-      <div className="page-wrap coming-soon">
-
-        <div className="container-fluid">
-          <div className="wrapper">
-            { this.props.children }
-          </div>
-        </div>
+      <div className="container-fluid coming-soon-wrapper">
+          { this.props.children }
       </div>
     );
   }

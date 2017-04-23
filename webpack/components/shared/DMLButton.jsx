@@ -10,9 +10,9 @@ export default class DMLButton extends React.Component {
 
   render() {
     return (
-      <div>
-        <a className="btn btn-primary dml-button" href={ this.props.buttonURL } role="button">{ this.props.buttonText }</a>
-      </div>
+      <button className="btn btn-primary dml-button" role="button">
+        <a href={ this.props.buttonURL }>{ this.props.buttonText }</a>
+      </button>
     );
   }
 }

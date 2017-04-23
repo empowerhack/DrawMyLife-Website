@@ -7,12 +7,10 @@ import DMLButton from '../shared/DMLButton.jsx';
 export default class ComingSoon extends React.Component {
   render() {
     return (
-      <div className="container">
+      <div className="coming-soon-content">
         <PageHeader className="title">{ comingSoon.title }</PageHeader>
 
-        <div className="dml-logo">
-          Draw My Life logo
-        </div>
+        <div className="dml-logo"></div>
 
         <p>{ comingSoon.tagline }</p>
 
