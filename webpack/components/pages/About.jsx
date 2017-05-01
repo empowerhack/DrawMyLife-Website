@@ -1,5 +1,5 @@
 import React from 'react';
-import { PageHeader } from 'react-bootstrap';
+import { PageHeader } from 'react-bootstrap-4';
 import { about } from '../../copy/about.js';
 
 export default class About extends React.Component {

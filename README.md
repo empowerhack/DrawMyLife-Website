@@ -35,7 +35,7 @@ Yarn is a javascript package management for all dependencies. It will be used to
 It's probably best to have two terminal tabs open, as you will need to build and transpile your React components; and then Jekyll will serve it to your local host.
 
 #### Building the React Components
-To build the React Components you will need to run the command `webpack` in your command line
+To build and transpile the React Components you will need to run the command `yarn run build` in your command line. To build these whenever any files are edited, run the command `yarn run watch`.
 
 #### Serving the project to your local host
 To build and serve the entire project so you can see local changes you will need to run the command `jekyll serve` in the command line and visit `http://localhost:4000` to see the changes.
