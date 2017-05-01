@@ -1,2 +1,14 @@
+@import '_helpers/variables';
+@import '_components/navigation';
+
 body {
+  font-family: $font-family;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-size: 700;
 }
