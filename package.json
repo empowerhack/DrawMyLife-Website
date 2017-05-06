@@ -32,7 +32,8 @@
     "source"
   ],
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "webpack",
+    "watch": "webpack --watch"
   },
   "dependencies": {
     "react-bootstrap-4": "^0.29.1",
