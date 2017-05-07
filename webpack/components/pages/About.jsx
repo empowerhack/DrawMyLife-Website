@@ -13,7 +13,6 @@ export default class About extends React.Component {
                 <div className="pt-5">
                   <PageHeader>{ about.title }</PageHeader>
                   <p>{ about.lorem }</p>
-
                   <h2>{ about.subtitle }</h2>
                   <p>{ about.lorem }</p>
                 </div>
