@@ -1,26 +1,36 @@
 .dml-button {
-  background-color: black;
-  border-color: black;
+  background-color: $button-bg;
+  border-color: $button-bg;
   border-radius: 2em;
-  margin: 1.5em;
+  margin: 3em 0;
   padding: 1em;
-  text-transform: uppercase;
-  width: 10em;
+  width: 15em;
+  font-weight: bold;
+  font-size: 16px;
+
+  @include breakpoint(small) {
+    margin: 1.5em 0;
+  }
 
   > a {
-    color: yellow;
+    color: $button-fg;
+    background-color: $button-bg;
 
     &:hover {
+      color: $button-fg-hover;
+      background-color: $button-bg-hover;
       text-decoration: none;
     }
   }
 
   &:hover {
-    background-color: yellow;
-    border-color: yellow;
+    background-color: $button-bg-hover;
+    border-color: $button-bg-hover;
 
     > a {
-      color: black;
+      color: $button-fg-hover;
+      background-color: $button-bg-hover;
+      border-color: $button-bg-hover;
     }
   }
 }

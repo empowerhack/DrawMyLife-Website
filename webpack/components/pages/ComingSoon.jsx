@@ -12,11 +12,15 @@ export default class ComingSoon extends React.Component {
 
         <div className="dml-logo"></div>
 
-        <p>{ comingSoon.tagline }</p>
+        <h2>{ comingSoon.tagline }</h2>
+
+        <div dangerouslySetInnerHTML={ comingSoon.description } />
 
         <DMLButton buttonText={ comingSoon.callToActionText } buttonURL={ comingSoon.callToActionURL } />
 
-        <div dangerouslySetInnerHTML={ comingSoon.description } />
+        <div dangerouslySetInnerHTML={ comingSoon.moreInfo } />
+
+        <a href="http://empowerhack.io#drawmylife"><img className="eh-logo" width="100" src="/assets/images/empowerhack-logo.png" /></a>
       </div>
     );
   }

@@ -1,22 +1,87 @@
 .coming-soon-wrapper {
-  align-items: center;
-  background-image: url('../assets/images/coming_soon.png');
+  background-image: url('../assets/images/coming_soon_large.jpg');
   background-position: top center;
   background-repeat: no-repeat;
   background-size: cover;
-  display: flex;
-  font-family: $font-family;
+  // background-size: 100% auto;
   height: 100%;
+  min-width: 100%;
+  box-shadow: inset 0px -4px 14px 0px rgba(50, 50, 50, 0.71);
+  z-index: 0;
+  position: relative;
+  display: flex;
+  flex-direction: row;
   justify-content: center;
-  text-align: center;
+  padding-bottom: 40px;
+
+  @include breakpoint(medium) {
+    background-image: url('../assets/images/coming_soon_medium.jpg');
+  }
+
+  @include breakpoint(small) {
+    background-image: url('../assets/images/coming_soon_small.jpg');
+  }
+
+}
+
+.coming-soon-wrapper:after {
+  content: '';
+  background: linear-gradient(135deg, #333, #000);
+  width: 100%;
+  height: 100%;
+  opacity: 0.7;
+  top: 0;
+  left: 0;
+  display: block;
+  z-index: 1;
+  position: absolute;
+}
+
+.coming-soon-footer {
+  color: #c0c0c0;
+  background-color: #333333;
+  padding: 1em;
 }
 
 .coming-soon-content {
-  height: 100vh;
+  display: block;
+  z-index: 2;
+  justify-content: center;
+  text-align: center;
+  height: 100%;
   max-width: 65%;
+  font-family: $font-family;
+  color: #c0c0c0;
 
   h1 {
     font-size: 6em;
+    font-weight: 100;
+
+    @include breakpoint(medium) {
+      font-size: 4em;
+    }
+
+    @include breakpoint(small) {
+      font-size: 3em;
+    }
+  }
+
+  h2 {
+    font-size: 3em;
+    font-weight: 100;
+    margin: 1.5em 0;
+
+    @include breakpoint(medium) {
+      font-size: 2em;
+    }
+
+    @include breakpoint(small) {
+      font-size: 2em;
+    }
+  }
+
+  .page-header {
+    border: 0;
   }
 
   p {
@@ -25,10 +90,11 @@
   }
 
   a {
-    color: #3498db;
+    color: #c5093b;
 
     &:hover {
       text-decoration: none;
+      color: #ff558f;
     }
   }
 
@@ -41,5 +107,10 @@
     margin: 0 auto;
     text-indent: -9999px;
     width: 250px;
+  }
+
+  .eh-logo {
+    background-color: #fff;
+    padding: 10px;
   }
 }
