@@ -53,6 +53,10 @@
   font-family: $font-family;
   color: #c0c0c0;
 
+  @include breakpoint(small) {
+    max-width: 75%;
+  }
+
   h1 {
     font-size: 6em;
     font-weight: 100;
