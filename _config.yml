@@ -37,4 +37,4 @@ source: src
 destination: public
 
 sass:
-  sass_dir: ./_sass
+  sass_dir: ./src/_sass
