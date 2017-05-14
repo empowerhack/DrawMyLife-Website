@@ -3,8 +3,6 @@ _site
 .jekyll-metadata
 
 .DS_Store
-**/bundle.js
-**/bundle.js.map
 node_modules
 npm-debug.log
 yarn-error.log
