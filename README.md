@@ -52,7 +52,7 @@ To ensure we have less error prone code we are using two linting dependencies to
 
 ## Deployment
 
-This site is hosted on GitHub Pages, the live site reflects anything in the gh-pages branch. To deploy the latest changes in public live:
+This site is hosted on GitHub Pages, the live site reflects anything in the `gh-pages` branch. To deploy the latest changes in public live:
 
 ```
 // Update your local version of master to the latest
