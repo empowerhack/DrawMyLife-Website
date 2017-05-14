@@ -35,3 +35,6 @@ exclude:
 
 source: src
 destination: public
+
+sass:
+  sass_dir: ./_sass
