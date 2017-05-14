@@ -55,16 +55,11 @@ To ensure we have less error prone code we are using two linting dependencies to
 This site is hosted on GitHub Pages, the live site reflects anything in the `gh-pages` branch. To deploy the latest changes in public live:
 
 ```
-// Update your local version of master to the latest
-git fetch
-git checkout master
-git reset --hard origin/master
+  // Update your local version of gh-pages with the master branch
+  git checkout gh-pages
+  git fetch
+  git reset --hard origin/master
 
-// Update your local version of gh-pages then merge in master
-git checkout gh-pages
-git reset --hard origin/gh-pages
-git merge master
-
-// Push only the public folder files to gh-pages
-git subtree push --prefix public origin gh-pages
+  // Push only the public folder files to gh-pages
+  git subtree push --prefix public origin gh-pages
 ```
