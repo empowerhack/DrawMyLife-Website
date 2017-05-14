@@ -5,7 +5,6 @@ _site
 .DS_Store
 **/bundle.js
 **/bundle.js.map
-public
 node_modules
 npm-debug.log
 yarn-error.log
