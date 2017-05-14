@@ -1,7 +1,12 @@
-@import url('https://fonts.googleapis.com/css?family=Josefin+Sans:400,700');
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans:100,400,700');
 
 // **** Fonts **** //
 $font-family: 'Josefin Sans', sans-serif;
 
 // **** Colours **** //
 $white: white;
+
+$button-fg: #222222;
+$button-bg: #fddf50;
+$button-fg-hover: #fddf50;
+$button-bg-hover: #222222;

@@ -8,7 +8,7 @@ export default class Footer extends React.Component {
   render() {
     const _displayFooterItem = Object.keys(nav).map((key, index) => {
       return (
-        <LinkContainer to={ '/' + key } key={ index }><a eventKey={ index }>{ nav[key] }</a></LinkContainer>
+        <LinkContainer to={ '/wip/' + key } key={ index }><a eventKey={ index }>{ nav[key] }</a></LinkContainer>
       );
     });
 

@@ -1,0 +1,36 @@
+.dml-button {
+  background-color: $button-bg;
+  border-color: $button-bg;
+  border-radius: 2em;
+  margin: 3em 0;
+  padding: 1em;
+  width: 15em;
+  font-weight: bold;
+  font-size: 16px;
+
+  @include breakpoint(small) {
+    margin: 1.5em 0;
+  }
+
+  > a {
+    color: $button-fg;
+    background-color: $button-bg;
+
+    &:hover {
+      color: $button-fg-hover;
+      background-color: $button-bg-hover;
+      text-decoration: none;
+    }
+  }
+
+  &:hover {
+    background-color: $button-bg-hover;
+    border-color: $button-bg-hover;
+
+    > a {
+      color: $button-fg-hover;
+      background-color: $button-bg-hover;
+      border-color: $button-bg-hover;
+    }
+  }
+}
