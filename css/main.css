@@ -19,6 +19,7 @@ h1, h2, h3, h4, h5 { font-size: 700; }
 .coming-soon-footer { color: #c0c0c0; background-color: #333333; padding: 1em; }
 
 .coming-soon-content { display: block; z-index: 2; justify-content: center; text-align: center; height: 100%; max-width: 65%; font-family: "Josefin Sans", sans-serif; color: #c0c0c0; }
+@media (max-width: 37.5em) { .coming-soon-content { max-width: 75%; } }
 .coming-soon-content h1 { font-size: 6em; font-weight: 100; }
 @media (max-width: 50em) { .coming-soon-content h1 { font-size: 4em; } }
 @media (max-width: 37.5em) { .coming-soon-content h1 { font-size: 3em; } }
