@@ -59,7 +59,7 @@
 
   h1 {
     font-size: 6em;
-    font-weight: 100;
+    font-weight: 400;
 
     @include breakpoint(medium) {
       font-size: 4em;
@@ -103,7 +103,7 @@
   }
 
   .dml-logo {
-    background-image: url('../assets/images/DML-Logo-web-150x-high.png');
+    background-image: url('../assets/images/dml-logo-250px-lighttext.png');
     background-position: top center;
     background-repeat: no-repeat;
     background-size: cover;
