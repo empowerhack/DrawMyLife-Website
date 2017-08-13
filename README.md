@@ -17,9 +17,6 @@ Ruby is required for Jekyll and Node will help you massively with all the javasc
 ### How to install the Stack and all the dependencies
 As mentioned in the Development setup intro there are some prerequisites required before you can begin work on the project.
 
-#### Jekyll
-_{ installation instructions to go here }_
-
 #### Yarn
 Yarn is a javascript package management for all dependencies. It will be used to add and remove all javascript dependencies from this project.
 
@@ -29,7 +26,22 @@ Yarn is a javascript package management for all dependencies. It will be used to
 - If it's a development dependency add the flag `--dev`. Example `yarn add {dependency} --dev` to save to the `package.json`
 - If it's a production dependency add the flag `--save`. Example `yarn add {dependency} --save` to save to the `package.json`
 
+
 ##### React and Webpack are dependencies and will be installed during the installation of all javascript dependencies, i.e. `yarn install`
+
+
+#### Jekyll
+
+Jekyll is a popular Ruby library for creating a static blog and deploying static sites to GitHub Pages.
+
+- Jekyll is included in this project as part of the GitHub Pages gem. You'll need to install the package manager [Bundler](http://bundler.io/) once to be able to install / update all gems specified in the Gemfile.
+
+  gem install bundler
+
+Then any time the Gemfile changes, cd into the root of the project and run:
+
+  bundle install
+
 
 ### Building the project
 It's probably best to have two terminal tabs open, as you will need to build and transpile your React components; and then Jekyll will serve it to your local host.
@@ -50,16 +62,10 @@ To ensure we have less error prone code we are using two linting dependencies to
 | ESLint     | [Atom ESLint](https://atom.io/packages/eslint)                | {I need to find one 😂} |
 | SASS-Lint  | [linter-sass-lint](https://atom.io/packages/linter-sass-lint) | {See above}             |
 
+## Contribution
+
+To contribute, clone the repository and check out a feature branch. Submit a pull request for the team and other volunteers to code review your changes before we merge them into the master branch. Thank you in advance for your time and help!
+
 ## Deployment
 
-This site is hosted on GitHub Pages, the live site reflects anything in the `gh-pages` branch. To deploy the latest changes in public live:
-
-```
-  // Update your local version of master with origin
-  git checkout master
-  git fetch
-  git reset --hard origin/master
-
-  // Push only the public folder to the gh-pages branch
-  git subtree push --prefix public origin gh-pages
-```
+This site is hosted on GitHub Pages, the live site will build anything within the `docs` folder in the `master` branch. Anything merged to the master branch will be visible on the live website.
