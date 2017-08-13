@@ -44,10 +44,10 @@ Then any time the Gemfile changes, cd into the root of the project and run:
 
 
 ### Building the project
-It's probably best to have two terminal tabs open, as you will need to build and transpile your React components; and then Jekyll will serve it to your local host.
+It's probably best to have two terminal tabs open, as you will need to build and transpile your React components and compile assets; and then Jekyll will serve it to your local host.
 
-#### Building the React Components
-To build and transpile the React Components you will need to run the command `yarn run build` in your command line. To build these whenever any files are edited, run the command `yarn run watch`.
+#### Building the React Components and Asset Compilation
+To build and transpile the React Components and compile assets (CSS & images) from the webpack folder to the Jekyll docs folder, you will need to run the command `yarn run build` in your command line. To build these whenever any files are edited, run the command `yarn run watch`. Note: any CSS or images you add to the project should be added in the webpack folder, which will then be built to the docs folder.
 
 #### Serving the project to your local host
 To build and serve the entire project so you can see local changes you will need to run the command `jekyll serve` in the command line and visit `http://localhost:4000` to see the changes.
