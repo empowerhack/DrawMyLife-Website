@@ -1,5 +1,5 @@
 .coming-soon-wrapper {
-  background-image: url('../assets/images/coming_soon_large.jpg');
+  background-image: url('#{$imagePath}coming_soon_large.jpg');
   background-position: top center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -15,11 +15,11 @@
   padding-bottom: 40px;
 
   @include breakpoint(medium) {
-    background-image: url('../assets/images/coming_soon_medium.jpg');
+    background-image: url('#{$imagePath}coming_soon_medium.jpg');
   }
 
   @include breakpoint(small) {
-    background-image: url('../assets/images/coming_soon_small.jpg');
+    background-image: url('#{$imagePath}coming_soon_small.jpg');
   }
 
 }
@@ -103,7 +103,7 @@
   }
 
   .dml-logo {
-    background-image: url('../assets/images/dml-logo-250px-lighttext.png');
+    background-image: url('#{$imagePath}dml-logo-250px-lighttext.png');
     background-position: top center;
     background-repeat: no-repeat;
     background-size: cover;

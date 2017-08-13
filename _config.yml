@@ -19,22 +19,17 @@ description: > # this means to ignore newlines until "baseurl:"
   Draw My Life is inspired by how children's art therapy in the field
   can become a basis for better data around the needs and experience
   of refugee children.
-baseurl: "/public" # the subpath of your site, e.g. /blog
+baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://drawmylife.org"
 twitter_username: drawmylifeteam
 
 # Build settings
 markdown: kramdown
-gems:
-  - jekyll-feed
-  - jekyll-assets
+
 exclude:
   - Gemfile
   - Gemfile.lock
   - node_modules
 
-source: src
+source: docs
 destination: public
-
-sass:
-  sass_dir: ./src/_sass
