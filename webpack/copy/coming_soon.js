@@ -1,5 +1,4 @@
 export const comingSoon = {
-  title:    'Coming Soon',
   tagline:    'A Perception of Migration Through Anonymised Children\'s Drawings & Data',
   callToActionText: 'Contact Us',
   callToActionURL: 'mailto:drawmylife@empowerhack.com',

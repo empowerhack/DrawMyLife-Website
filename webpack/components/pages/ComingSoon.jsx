@@ -8,11 +8,9 @@ export default class ComingSoon extends React.Component {
   render() {
     return (
       <div className="coming-soon-content">
-        <PageHeader className="title">{ comingSoon.title }</PageHeader>
+        <h2>{ comingSoon.tagline }</h2>
 
         <div className="dml-logo"></div>
-
-        <h2>{ comingSoon.tagline }</h2>
 
         <div dangerouslySetInnerHTML={ comingSoon.description } />
 
